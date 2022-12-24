@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "328463478767",
+    "project_id": "my-shop-pal-b3b50",
+    "storage_bucket": "my-shop-pal-b3b50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328463478767:android:0637f4be6e8f764f2b901a",
+        "android_client_info": {
+          "package_name": "subrata.project.android.myshoppal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328463478767-5eqjonookioui92lirte1nu6h8g93rfh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "subrata.project.android.myshoppal",
+            "certificate_hash": "cbeca522a88dab6ba1d629460d74dfd4fccfc26b"
+          }
+        },
+        {
+          "client_id": "328463478767-3d2c042ntc9lfg34abs506jfm7fgfuf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqHmC24eZoL2W4xa5qAJ-kYPDPn3xOD6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328463478767-3d2c042ntc9lfg34abs506jfm7fgfuf4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
