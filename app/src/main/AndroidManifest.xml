@@ -16,6 +16,15 @@
         android:theme="@style/Theme.MyShopPal"
         tools:targetApi="31">
         <activity
+            android:name=".ui.activities.AddEditAddressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.AddressListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.CartListActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.activities.ProductDetailsActivity"
             android:exported="false" />
         <activity

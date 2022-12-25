@@ -8,6 +8,7 @@ import subrata.project.android.myshoppal.R
 import subrata.project.android.myshoppal.adapters.DashboardItemsListAdapter
 import subrata.project.android.myshoppal.databinding.FragmentDashboardBinding
 import subrata.project.android.myshoppal.models.Product
+import subrata.project.android.myshoppal.ui.activities.CartListActivity
 import subrata.project.android.myshoppal.ui.activities.ProductDetailsActivity
 import subrata.project.android.myshoppal.ui.activities.SettingsActivity
 import subrata.project.android.myshoppal.utils.Constants
@@ -59,6 +60,11 @@ class DashboardFragment : BaseFragment() {
                 startActivity(Intent(activity, SettingsActivity::class.java))
                 return true
             }
+
+            R.id.action_cart -> {
+                startActivity(Intent(activity, CartListActivity::class.java))
+                return true
+            }
         }
 
         return super.onOptionsItemSelected(item)
@@ -82,6 +88,7 @@ class DashboardFragment : BaseFragment() {
                 override fun onClick(position: Int, product: Product) {
                     val intent = Intent(context, ProductDetailsActivity::class.java)
                     intent.putExtra(Constants.EXTRA_PRODUCT_ID, product.product_id)
+                    intent.putExtra(Constants.EXTRA_PRODUCT_OWNER_ID, product.user_id)
                     startActivity(intent)
                 }
             })
